@@ -1,6 +1,6 @@
-body{
-background: radial-gradient(circle at center, #a8ef81 0%, #dbeafe 40%, #1e293b 100%);
-color: black;
+body {
+  background: radial-gradient(circle at center, #a8ef81 0%, #dbeafe 40%, #1e293b 100%);
+  color: black;
   margin: 0;
 }
 
@@ -8,9 +8,10 @@ color: black;
   display: flex;
   align-items: center;
   gap: 20px;
+  
 }
 
-.logo{
+.logo {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -18,49 +19,45 @@ color: black;
   flex-shrink: 0;
 }
 
-.nav{
+.nav {
   display: flex;
   justify-content: space-around;
   flex: 1;
   gap: 30px;
   padding-bottom: 100px;
  
-  
 }
 
 .nav a {
- 
- text-decoration: none;
-  font-size: 16px;
+  text-decoration: none;
   font-size: 30px;
   padding-left: 10px;
+  padding-bottom: 2px;
 }
 
 .nav a:hover {
   color: rgb(100, 7, 222);
 }
-.Main_img{
+
+.section1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+}
+
+.section1 h3 {
+  font-size: 32px;
+  line-height: 1.4;
+  max-width: 60ch;
+  margin: 0;
+  white-space: normal;
+}
+
+.Main_img {
   width: 300px;
   height: 350px;
   border-radius: 90%;
   object-fit: cover;
-  margin-left: 80%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-left: 2px;
- 
-}
-h3{
-  padding-top: 30px;
-  font-size: 45px;
-  display: flex;
-  max-width: 70%;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
- .section1 {
-  display: flex;
-  
+  flex-shrink: 0;
 }
