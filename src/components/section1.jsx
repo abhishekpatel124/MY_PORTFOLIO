@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import WhatsAppImage from '../assets/WhatsApp Image 2026-01-08 at 8.07.18 PM.jpeg'
 
 const Section1 = () => {
@@ -10,6 +10,8 @@ const Section1 = () => {
   }, [])
 
   return (
+    <>
+
     <div className="section1">
       <h3
         style={{
@@ -20,7 +22,7 @@ const Section1 = () => {
         }}
       >
         A curious developer who loves turning ideas into interactive web experiences
-        and smart IoT solutions, blending creativity, logic, and continuous learning
+        and smart IoT solutions, blending creativity, logic and continuous learning
         to build meaningful projects.
       </h3>
       <img
@@ -29,6 +31,8 @@ const Section1 = () => {
         alt="WhatsApp Image 2026-01-08 at 8.07.18 PM"
       />
     </div>
+    <div className="links"><img src="" alt="" /></div>
+    </>
   )
 }
 
