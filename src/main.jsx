@@ -3,9 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Section1  from './components/section1.jsx'
+import ImageLink from './components/links.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
+   
     <Section1></Section1>
+     <ImageLink></ImageLink>
   </StrictMode>,
 )
