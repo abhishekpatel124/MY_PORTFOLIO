@@ -61,3 +61,10 @@ body {
   object-fit: cover;
   flex-shrink: 0;
 }
+.main-links img{
+  width: 2px;
+  height: 70px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
