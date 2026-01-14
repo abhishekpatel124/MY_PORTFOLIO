@@ -44,6 +44,7 @@ body {
   align-items: center;
   gap: 24px;
   padding: 20px;
+
 }
 
 .section1 h3 {
@@ -67,4 +68,9 @@ body {
   margin: 20px 20px 20px 20px;
   border-radius: 50%;
   object-fit: cover;
+}
+ .about-section {
+  height: 100vh;
+  background-color: #0f0f0f;
+  color: aliceblue;
 }
