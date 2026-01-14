@@ -31,7 +31,7 @@ const Section1 = () => {
         alt="WhatsApp Image 2026-01-08 at 8.07.18 PM"
       />
     </div>
-    <div className="links"><img src="" alt="" /></div>
+    
     </>
   )
 }
