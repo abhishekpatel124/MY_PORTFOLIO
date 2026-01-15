@@ -118,7 +118,8 @@ span{
     #1dd1a1,
     #ff6b6b
   );
-  background-size: 300%;
+}
+  /* background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 4s linear infinite;
@@ -131,4 +132,4 @@ span{
   100% {
     background-position: 300%;
   }
-}
+} */
