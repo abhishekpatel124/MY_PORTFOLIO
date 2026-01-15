@@ -71,6 +71,64 @@ body {
 }
  .about-section {
   height: 100vh;
-  background-color: #0f0f0f;
+ background: linear-gradient(to right, #434343, #000000);
   color: aliceblue;
+}
+
+.main-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.main-about img{
+   width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin: 10px 10px;
+}
+
+.main-about h3 {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+#About {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+span{
+  color: rgb(211, 185, 245);
+  font-size: 32px;
+  padding: 2px 2px;
+  margin: 500px 2px;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    #ff6b6b,
+    #feca57,
+    #48dbfb,
+    #1dd1a1,
+    #ff6b6b
+  );
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 4s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
 }
