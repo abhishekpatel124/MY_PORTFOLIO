@@ -118,13 +118,13 @@ span{
     #1dd1a1,
     #ff6b6b
   );
-}
-  /* background-size: 300%;
+
+  background-size: 300%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 4s linear infinite;
-}
 
+}
 @keyframes gradientMove {
   0% {
     background-position: 0%;
@@ -132,4 +132,15 @@ span{
   100% {
     background-position: 300%;
   }
-} */
+}
+.project-section {
+  height: 100vh;
+  background: linear-gradient(to right, #434343, #ee7f7f);
+  color: aliceblue;
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+}
