@@ -144,3 +144,27 @@ h1{
   padding-top: 40px;
   font-size: 40px;
 }
+.project_Card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2px;
+  margin: 2px;
+  width: 400px;
+  color: #16de3e;
+}
+.project_Card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+  .project_Card h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.projects{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  height: 100vh;
+}

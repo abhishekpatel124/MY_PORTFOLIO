@@ -3,6 +3,7 @@ import largeImage from './assets/large.png'
 import Section1 from './components/section1'
 import About from './components/About'
 import ImageLink from './components/links'
+import Project from './components/Project'
 
 function App() {
   const scrollToSection = (id) => {
@@ -22,8 +23,21 @@ function App() {
           <a href="#experience" onClick={(e) => { e.preventDefault(); scrollToSection("experience"); }}>Experience</a>
         </div>
       </div>
-    
-      
+
+      <Section1 />
+      <div id="about">
+             <ImageLink />
+        <About />
+
+      </div>
+      <Project />
+ 
+      <div id="contact">
+        <h2>Contact</h2>
+      </div>
+      <div id="experience">
+        <h2>Experience</h2>
+      </div>
     </>
   )
 }

@@ -16,8 +16,7 @@ const Section1 = () => {
       <h3
         style={{
           opacity: entered ? 1 : 0,
-          transform: entered ? 'translateY(0)' : 'translateY(20px)',
-            transform: entered ? 'translateX(0)' : 'translateX(8px)',
+          transform: entered ? 'translateY(0) translateX(0)' : 'translateY(20px) translateX(8px)',
           transition: 'opacity 2s ease-out, transform 3s ease-out'
         }}
       >
