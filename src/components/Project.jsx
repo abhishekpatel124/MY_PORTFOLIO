@@ -21,6 +21,7 @@ const Project = ({ projects }) => {
             title={project.title}
             description={project.description}
           />
+          
         ))}
       </div>
     </div>
