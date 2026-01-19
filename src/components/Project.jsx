@@ -1,21 +1,28 @@
 import React from 'react'
-import WhatsAppImage from '../assets/image copy 4.png'
 
-const Project = () => {
+const ProjectCard = ({ image, title, description }) => {
+  return (
+    <div className="project_Card">
+      <img src={image} alt={title} />
+      <h3>{description}</h3>
+    </div>
+  )
+}
+
+const Project = ({ projects }) => {
   return (
     <div id="projects" className="project-section">
-        <h1>Projects</h1>
-<div className = "main_project"> </div>
-<div className="project_Card">
-     <img src={WhatsAppImage} alt="E-commerce" />
-<h3>
-  An ecommerce website using html ,css and javascript .
-</h3>
-                  
-                  
-  </div>
-    
-      
+      <h1>Projects</h1>
+      <div className="main_project">
+        {projects && projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            image={project.image}
+            title={project.title}
+            description={project.description}
+          />
+        ))}
+      </div>
     </div>
   )
 }

@@ -4,7 +4,9 @@ import Section1 from './components/section1'
 import About from './components/About'
 import ImageLink from './components/links'
 import Project from './components/Project'
-
+import eCommerceImage from './assets/image copy 4.png'
+import flappyBirdImage from './assets/image copy 5.png'
+import SimpleWebpage from './assets/image copy 6.png'
 function App() {
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({
@@ -28,9 +30,24 @@ function App() {
       <div id="about">
              <ImageLink />
         <About />
-
       </div>
-      <Project />
+      <Project projects={[
+        {
+          image: eCommerceImage,
+          title: 'E-commerce',
+          description: 'An ecommerce website using html, css and javascript.'
+        },
+        {
+           image: flappyBirdImage,
+          title: 'Game',
+          description: 'Flappy bird game using Html Css and Javascript.'
+         },
+         {
+          image: SimpleWebpage,
+          title: 'Simple Webpage',
+          description: 'A simple responsive webpage using HTML and CSS.'
+         }
+      ]} />
  
       <div id="contact">
         <h2>Contact</h2>
